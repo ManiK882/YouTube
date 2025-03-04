@@ -2,7 +2,7 @@
   "name": "youtube",
   "version": "1.0.0",
   "description": "\"a replica of youtube\"",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.js"
@@ -12,5 +12,8 @@
     "backend"
   ],
   "author": "Maninee Kharsel",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.5.3"
+  }
 }
