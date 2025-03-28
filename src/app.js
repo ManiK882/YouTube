@@ -20,7 +20,7 @@ app.use(cookieParser())
 import userRouter from './routes/user.routes.js';
 
 
-//routes declaration
+//routes declaration router ko lane k liye middleware lana padega.
 app.use("/api/v1/users",userRouter)
 
 
